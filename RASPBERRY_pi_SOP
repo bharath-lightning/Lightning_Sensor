@@ -1,1 +1,52 @@
+Raspberrypi 4 model B 
 
+REQUIREMENTS:-
+* Raspberry pi board 
+* micro sd card (minimum 8GB to preferbly 16GB and more)
+* power supply(5V - 3A)
+* Monitor with HDMI input
+* Micro-HDMI CABLE
+* USB keyboard and mouse
+* Ethernet WiFi accesses
+* sd card reader for your computer
+
+
+steps of opertaions:-
+
+Step1:-Download the Raspberry pi operating system(os)
+  * Visiting the Raspberry pi website; official website raspberrypi.org
+  * download Raspberry pi imager for operating system(windows,macosor linux)
+     website:-[https://WWW.raspberrypi.com/software/operating systems/
+     raspberrypi os with desktop and reccommended software;
+     Release date : July 4th 2024
+     system:32bit
+     kernel version:6.6
+     debian version:(book worm)
+     size:2,694MB
+
+STEP2:-Prepare the micro SD card
+  * insert sd card into your pc to sd card reader
+  * open raspberry pi imager 
+  * select the os
+  * choosing of storage 
+  * flashing the os onto the micro sd card 
+      - "choose os" as we selected os 
+      -  choose storage
+      -  click to bigin flashing the image to sd card and after it done,eject safily
+
+ Step3:-connect the Raspberry pi Hardware
+   * Insert micro sd card :- Into the micro SD card slot in the Raspberry pi 
+   * connect the monitor  :- use Micro HDMI1 - HDMI2 cable to Raspberry pi to pc
+   * connect keyboard and mouse :-connect them to Raspberry pi ports
+   * connect internet network connections to raspberrypi
+   * power supply :-connect suitable power supply(5v - 3A)
+
+ step4:-power on the Raspberry pi:-
+   * once the power is connected the raspberry will automatically start booting up.
+   * after the initial boot, the setup will guide you through a basic configuration
+   * setup passward for Raspberry pi 
+   * update the software
+   * reboot 
+
+step5:-start using Raspberry pi:-
+   * Ready to start work on the Raspberry pi deskstop
