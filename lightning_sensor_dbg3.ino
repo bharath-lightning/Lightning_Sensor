@@ -69,7 +69,7 @@ void setup()
   #else
   attachInterrupt(/*Interrupt No*/0,AS3935_ISR,RISING);
   #endif
-  delay(1000);
+  delay(500);
   //set capacitance
   lightning0.setTuningCaps(AS3935_CAPACITANCE);
   Serial.println("AS3935 manual cal complete");
@@ -92,10 +92,11 @@ void setup()
   lightning0.setWatchdogThreshold(2);
   //uint8_t wtdgThreshold = lightning0.getWatchdogThreshold();
   Serial.println("done: lightning0.setNoiseFloorLvl(2)");
+  
 
 
   //used to modify SREJ (spike rejection),values should only be between 0x00 and 0x0F (0 and 7)
-  lightning0.setSpikeRejection(2);
+  //lightning0.setSpikeRejection(2);
   //uint8_t spikeRejection = lightning0.getSpikeRejection();
   Serial.println("done: lightning0.setNoiseFloorLvl(2)");
 
